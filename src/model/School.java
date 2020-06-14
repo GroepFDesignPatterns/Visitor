@@ -1,9 +1,9 @@
 package model;
 
-import interfaces.ILocatie;
+import interfaces.Visitable;
 import visitors.IVisitor;
 
-public class School implements ILocatie {
+public class School implements Visitable {
 
     private final int maxAge = 12;
 

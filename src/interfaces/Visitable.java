@@ -2,7 +2,7 @@ package interfaces;
 
 import visitors.IVisitor;
 
-public interface ILocatie {
+public interface Visitable {
     String pakNaam();
     void accepteren(IVisitor visitor);
 }

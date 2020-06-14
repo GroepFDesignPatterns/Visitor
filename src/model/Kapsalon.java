@@ -1,9 +1,9 @@
 package model;
 
-import interfaces.ILocatie;
+import interfaces.Visitable;
 import visitors.IVisitor;
 
-public class Kapsalon implements ILocatie {
+public class Kapsalon implements Visitable {
     private int aantalBezoekers = 0;
 
     @Override

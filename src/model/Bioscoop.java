@@ -1,9 +1,9 @@
 package model;
 
-import interfaces.ILocatie;
+import interfaces.Visitable;
 import visitors.IVisitor;
 
-public class Bioscoop implements ILocatie {
+public class Bioscoop implements Visitable {
     private boolean isOpen = false;
 
     @Override
